@@ -1,0 +1,863 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>Hello, world!</title>
+  </head>
+  <style>
+    *{padding:0;margin:0;box-sizing:border-box;}
+.wraper{width:100%; height:100vh; display:flex; align-items:center; padding:40px; background:white;} 
+.owl-theme img{width:100%;min-height:200px;}
+.owl-carousel .owl-prev, .owl-carousel .owl-next{position:absolute; top:40%; transform:translateY(-50%); background-color:#fff !important; color:#000 !important; font-size:1.5em !important; width:40px; height:40px; border-radius:100% !important; font-weight:bold; padding:15px !important; text-align:center; box-shadow:0px 0px 10px 0px #000;}
+.owl-carousel .owl-prev:hover, .owl-carousel .owl-next:hover{box-shadow:0px 0px 0px 0px #000; background-color:red !important; color:#fff !important;}
+.owl-carousel .owl-prev{left:-30px;}
+.owl-carousel .owl-next{right:-30px;}
+.owl-theme .owl-dots .owl-dot.active span{background:red !important; width:25px; transition:0.2s ease-in-out;}
+.owl-theme .owl-dots .owl-dot:hover span{background:red !important; transition:0.2s ease-in-out;}
+
+
+/* Responsive design custom css */
+@media only screen and (max-width:480px){
+  .owl-theme .owl-dots .owl-dot{display:none;}
+  .owl-carousel .owl-prev, .owl-carousel .owl-next{width:30px; height:30px; font-size:14px !important; top:45%; box-shadow:0px 0px 0px 0px #000;}
+  .owl-carousel .owl-prev{left:0px;}
+.owl-carousel .owl-next{right:0px;}
+}
+</style>
+  <body>
+
+<section class="nav-1">        
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void(0)">   
+         <i class="bi bi-lightning-charge-fill"></i>
+         <span>We will go through all the stages of construction </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)"></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+            <ul>
+                <li class="btn btn-primary-new" type="a">NEWS/MEDIA</li>
+                <li class="btn btn-primary-car" type="a">CARRERS</li>
+                <li class="btn btn-primary-con" type="a">CONTACT</li>
+            </ul>
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+</section>
+
+
+<section class="nav2">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="logowhite">
+          <img src="images/logo1.png">
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <form class="d-flex">
+          <div class="icon">
+            <i class="bi bi-geo-alt"></i>
+          </div>
+          <div class="icon-item">
+            <span>Our Location</span><br>
+            <h3 class="s1">22 Madi Ave, New York</h3>
+          </div>
+
+          <div class="icon-2">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="icon-2-item">
+            <span>Send Us Mail</span><br>
+            <h3 class="s2">elevate.cons@gmail</h3>
+
+        </li>
+
+          </div>
+          <div class="get-btn">
+          <i class="btn btn-primary" id="btn">Get A Quote</i>
+          </div>
+          <i></i>
+           
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cards">
+  <div class="container mt-3">
+    <h4>Our Services</h4>
+        <h2>QUALITY SERVICING OPPORTUNITY</h2>
+    <div class="row">
+      <div class="col-lg-4">
+    <div class="card">
+      <img class="card-img-top" src="images/ser1.webp" alt="Card image">
+    </div>
+
+      <div class="img-batch">
+        <span>01</span>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">General Construction</h5>
+        <p class="card-text">Urabitur lobortis mauris placerat quam netus litora eros purus,</p>
+        <a href="#" class="btn btn-primary">VIEW SERVICE</a>
+      </div>
+  </div>
+   
+  <div class="col-lg-4">
+    <div class="card">
+      <img class="card-img-top" src="images/ser2.webp" alt="Card image" >
+    </div>
+
+      <div class="img-batch">
+        <span>02</span>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Property Maintenance</h5>
+        <p class="card-text">Urabitur lobortis mauris placerat quam netus litora eros purus,</p>
+        <a href="#" class="btn btn-primary">VIEW SERVICE</a>
+      </div>
+  </div>
+    
+  <div class="col-lg-4">
+    <div class="card">
+      <img class="card-img-top" src="images/ser3.webp" alt="Card image" >
+    </div>
+
+      <div class="img-batch">
+        <span>03</span>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Virtual design & build</h5>
+                <p class="card-text">Urabitur lobortis mauris placerat quam netus litora eros purus,</p>
+                <a href="#" class="btn btn-primary">VIEW SERVICE</a>
+       
+      </div>
+</div>
+
+</div>
+</section>
+
+<section class="latest">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="main-latest">
+
+          <div class="col-lg-6">
+            <div class="latest-img">
+              <img src="images/two_young_construction_workers.jpg">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="latest-right">
+              <span>LATEST PROJECTS</span>
+              <h2>WE ARE QUALIFIED IN <br>EVERY WORKING DEPARTMENTS</h2>
+            </div>
+
+            <div class="container mt-3">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#home">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#menu1">Vision</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#menu2">Contact</a>
+                </li>
+              </ul>
+            
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div id="home" class="container tab-pane active"><br>
+                  <div class="para">
+                    <p>Laoreet conubia parturient lacinia pulvinar senectus vel posuere proin nec montes dapibus, 
+                      elementum blandit sem et massa ornare habitasse cursus erat nascetur, a sed placerat sagittis euismod.
+                    </p>
+                    </div>
+                    <div class="parent">
+        
+                      <div class="child1">
+                        <div class="count-text">
+                          <span class="num">3526</span>
+                          <span class="title">STARTED JOURNEY</span>
+                        </div>
+                      </div>
+        
+                      <div class="child2">
+                        <div class="unordered">
+                          <ul>
+                            <li><i class="bi bi-check"></i> Emerjency solution anytime</li>
+                            <li><i class="bi bi-check"></i> Affordable price upto 2 years</li>
+                            <li><i class="bi bi-check"></i> Reliable & Experienced Team</li>
+        
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-get">
+                      <span class="get">GET STARTED</span>
+        
+                    </div>
+        
+                </div>
+                <div id="menu1" class="container tab-pane fade"><br>
+                  <div class="para">
+                    <p>Laoreet conubia parturient lacinia pulvinar senectus vel posuere proin nec montes dapibus, 
+                      elementum blandit sem et massa ornare habitasse cursus erat nascetur, a sed placerat sagittis euismod.
+                    </p>
+                    </div>
+                    <div class="parent">
+        
+                      <div class="child1">
+                        <div class="count-text">
+                          <span class="num">2026</span>
+                          <span class="title">STARTED JOURNEY</span>
+                        </div>
+                      </div>
+        
+                      <div class="child2">
+                        <div class="unordered">
+                          <ul>
+                            <li>Emerjency solution anytime</li>
+                            <li>Affordable price upto 2 years</li>
+                            <li>Reliable & Experienced Team</li>
+        
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-get">
+                      <span class="get">GET STARTED</span>
+        
+                    </div>
+        
+                </div>
+                <div id="menu2" class="container tab-pane fade"><br>
+                  <div class="para">
+                    <p>Laoreet conubia parturient lacinia pulvinar senectus vel posuere proin nec montes dapibus, 
+                      elementum blandit sem et massa ornare habitasse cursus erat nascetur, a sed placerat sagittis euismod.
+                    </p>
+                    </div>
+                    <div class="parent">
+        
+                      <div class="child1">
+                        <div class="count-text">
+                          <span class="num">4526</span>
+                          <span class="title">STARTED JOURNEY</span>
+                        </div>
+                      </div>
+        
+                      <div class="child2">
+                        <div class="unordered">
+                          <ul>
+                            <li><i class="bi2 bi-telephone"></i> 
+                               +880123456564</li>
+                            <li><i class="bi2 bi-envelope"></i>
+                               exalple@info.com</li>
+                            <li><i class="bi2 bi-geo-alt"></i> 22 Madi Ave, New York
+                            </li>
+        
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-get">
+                      <span>GET STARTED</span>
+        
+                    </div>
+        
+                </div>
+              </div>
+            </div>
+           
+          </div>
+
+        </div>
+        </div>
+      </div>
+</section>
+
+<section class="wraper">
+        <div class="owl-carousel owl-theme construction-1">
+          <div class="item">
+          <img src="images/o1.webp"/>
+          <div class="gr-1">
+            <h3>Park Offices</h3>
+            <p>Building</p>
+          </div>
+          </div>
+          <div class="item">
+           <img src="images/o2.webp"/>
+           <div class="gr-1">
+            <h3>Railcar Factory</h3>
+            <p>Construction</p>
+           </div>
+          </div>
+           <div class="item">
+            <img src="images/o3.webp"/>
+            <div class="gr-1">
+              <h3>Oilmill Construction</h3>
+              <p>Building Renovation</p>
+            </div>
+          </div>
+           <div class="item">
+             <img src="images/o4.webp"/>
+             <div class="gr-1">
+              <h3>Road Construction</h3>
+              <p>Building Renovation</p>
+             </div>
+          </div>
+           <div class="item">
+             <img src="images/o5.webp"/>
+             <div class="gr-1">
+              <h3>Visual Design</h3>
+              <p>Building Renovation</p>
+             </div>
+          </div>
+           <div class="item">
+            <img src="images/o6.webp"/>
+            <div class="gr-1">
+              <h3>Building Construction</h3>
+              <p>Building Renovation</p>
+            </div>
+          </div>
+        </div>
+</section>
+
+<section class="big-div">
+  <div class="container-fluid">
+    <div class="row">
+<div class="divs">
+
+      <div class="col-lg-4">
+        <div class="left-main">
+              <div class="left-clock">
+                <i class="bi bi-alarm"></i>
+              </div>
+              <div class="left-div">
+                <p>WE ARE OPEN MONDAY-FRIDAY</p>
+                <h3>7:00 am - 9:00 pm</h3>
+              </div>
+      </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="center-main">
+          <div class="center-clock">
+            <i class="bi bi-telephone"></i>
+          </div>
+          <div class="center-div">
+            <p>HAVE A QUESTION?</p>
+            <h3>+2546 214 21536</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="right-main">
+          <div class="right-clock">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <div class="right-div">
+            <p>NEED A REPAIR? OUR ADDRESS</p>
+            <h3>Liza Street, NewYork</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="experts">
+  <div class="container">
+    <h5>TECHNICAL EXPART</h5>
+    <h2>OUR TECHNICAL EXPERTS</h2>
+    <div class="row">
+      <div class="col-lg-4">
+
+        <div class="card" >
+          <div class="card-img">
+          <img src="images/expert-1.webp" class="card-img-top" alt="...">
+          <div class="card-body-1">
+            <h3 class="card-title-1">Michel Jack</h3>
+            <p class="card-text-1">Road Mapping</p>
+            <a href="#" class="btn btn-warning"> <i class="bi bi-envelope-at"></i> example@gmail.com</a><br>
+            <a href="#" class="btn btn-warning"> <i class="bi bi-telephone"></i> +201674952496</a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      <div class="col-lg-4">
+
+        <div class="card" >
+          <div class="card-img">
+          <img src="images/expert-2.webp" class="card-img-top" alt="...">
+          <div class="card-body-1">
+            <h3 class="card-title-1">Mark Ronaldo</h3>
+            <p class="card-text-1">Engineer</p>
+            <a href="#" class="btn btn-warning"> <i class="bi bi-envelope-at"></i> example@gmail.com</a><br>
+            <a href="#" class="btn btn-warning">  <i class="bi bi-telephone"></i> +201674952496</a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-lg-4">
+
+        <div class="card" >
+          <div class="card-img">
+          <img src="images/expert-3.webp" class="card-img-top" alt="...">
+          <div class="card-body-1">
+            <h3 class="card-title-1">John Sinha</h3>
+            <p class="card-text-1">Engineer</p>
+            <a href="#" class="btn btn-warning"> <i class="bi bi-envelope-at"></i> example@gmail.com</a><br>
+            <a href="#" class="btn btn-warning">  <i class="bi bi-telephone"></i> +201674952496</a>
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="company">
+  <div class="container-fluid">
+    <div class="b-bann">
+    <img src="images/Screenshot (431).png">
+  </div>
+  </div>
+</section>
+
+<section class="manager-carousel-main">
+    <div class="owl-carousel owl-theme manager-1">
+          <div class="item">
+            <section class="manager-carousel">
+              <div class="container">
+                <div class="sticky-txt">
+                  <p>Trusted From Over <span>1,500 Clients</span></p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="manager-img">
+                      <img src="images/manager.webp">
+                    </div>
+                    <div class="quote-img">
+                      <img src="images/99.png">
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="ryt-text">
+                      <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                        </p>
+                        <h6>Mira Don,<span> Manager</span> </h6>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="item">
+            <section class="manager-carousel-2">
+              <div class="container">
+                <div class="sticky-txt">
+                  <p>Trusted From Over <span>1,500 Clients</span></p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="manager-img">
+                      <img src="images/manager.webp">
+                    </div>
+                    <div class="quote-img">
+                      <img src="images/99.png">
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="ryt-text">
+                      <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                        </p>
+                        <h6>Mira Don,<span> Manager</span> </h6>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="item">
+            <section class="manager-carousel-3">
+              <div class="container">
+                <div class="sticky-txt">
+                  <p>Trusted From Over <span>1,500 Clients</span></p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="manager-img">
+                      <img src="images/manager.webp">
+                    </div>
+                    <div class="quote-img">
+                      <img src="images/99.png">
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="ryt-text">
+                      <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                        </p>
+                        <h6>Mira Don,<span> Manager</span> </h6>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+    </div>
+</section>
+
+<section class="blog">
+  <div class="container">
+    <div class="heading">
+      <p>LATEST BLOG</p>
+      <h3>LATEST BLOG INSIGHTS</h3>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="main-blog-1">
+              <div class="blog-1">
+                <img src="images/blog-1.webp">
+                </div>
+                <div class="effect">
+
+                </div>
+              <div class="blog-content">
+                <span class="author"> ReacThemes . </span>
+                <span class="blog-date"> April 3, 2023</span>
+              <h3>One of the World’s Largest Passive House Buildings Construction</h3>
+          </div>
+          </div>
+            <div class="read">
+            <div class="detail-btn">
+              <span>READ DETAILS</span>
+            </div>
+            </div>
+
+      </div>
+
+      <div class="col-lg-4">
+        <div class="main-blog-1">
+                      <div class="blog-1">
+                        <img src="images/blog-2.webp">
+              
+                        <div class="effect">
+              
+                        </div>
+                      </div>
+                      <div class="blog-content">
+                        <span class="author"> ReacThemes . </span>
+                          <span class="blog-date"> April 3, 2023</span>
+              <h3>One of the World’s Largest Passive House Buildings Construction</h3>
+
+          </div>
+         
+        </div>
+        <div class="read">
+        <div class="detail-btn">
+          <span>READ DETAILS</span>
+        </div>
+      </div>
+      </div>
+        
+      <div class="col-lg-4">
+        <div class="main-blog-1">
+                  <div class="blog-1">
+                    <img src="images/blog-3.webp">
+                    
+                      <div class="effect">
+                    
+                      </div>
+                  </div>
+
+                  <div class="blog-content">
+                    <span class="author"> ReacThemes . </span>
+                    <span class="blog-date"> April 3, 2023</span>
+                    <h3>One of the World’s Largest Passive House Buildings Construction</h3>
+              </div>
+            </div>
+            <div class="read">
+            <div class="detail-btn">
+              <span>READ DETAILS</span>
+            </div>
+          </div>
+      </div>
+                
+          
+  </div>
+
+  </div>
+</section>
+
+<section class="logo">
+    <div class="owl-carousel owl-theme logo-1">
+      <div class="item">
+      <img src="images/logo-1.svg">
+      </div>
+      <div class="item">
+        <img src="images/logo-2.svg"> 
+      </div>
+      <div class="item">
+     <img src="images/logo-3.svg">  
+      </div>
+      <div class="item">
+        <img src="images/logo-last.svg">  
+         </div>
+</div>
+</section>
+
+<section class="footer">
+  <div class="container">
+
+    <div class="main-f">
+
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="logo-f">
+          <img src="images/footer-logo.svg">
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="text-f">
+          <h3>
+            SUBSCRIBE OUR NEWSLETTER FOR LATEST UPDATES</h3>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="input-f">
+          <input type="email" placeholder="Email Address">
+          <button class="btn-f">SUBSCRIBE</button>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+    <div class="main-f-2">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="f-1">
+            <h4>Heading Style</h4>
+            <p>Centric aplications productize before front end vortals visualize front end is results and value added</p>
+          </div>
+          <div class="icon-f">
+            <i class="bi bi-facebook"></i> 
+            <i class="bi bi-twitter"></i> 
+            <i class="bi bi-youtube"></i> 
+            <i class="bi bi-linkedin"></i> 
+
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="f-2">
+            <h4>USEFUL LINKS  </h4>
+            <ul>
+              <li>
+                <i class="bi bi-arrow-right-short"></i>
+                ABOUT US
+              </li>
+              <li>
+                <i class="bi bi-arrow-right-short"></i>
+                OUR SERVICES
+              </li>
+              <li>
+                <i class="bi bi-arrow-right-short"></i>OUR TEAM</li>
+              <li>
+                <i class="bi bi-arrow-right-short"></i>CONTACT US</li>
+              <li> 
+                <i class="bi bi-arrow-right-short"></i>CARRER</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="f-3">
+            <h4>CONTACT US</h4>
+            <ul>
+              <li>
+                <i class="bi bi-telephone"></i> 
+                +254 (98) 2156 213
+              </li>
+                <li>
+                  <i class="bi bi-telephone"></i> 
+                 +265 (10) 12545 48 
+                </li>
+              <li>
+                <i class="bi bi-envelope-at"></i>
+                  info@elevate.com
+                </li>
+              <li>
+                <i class="bi bi-geo-fill"></i>
+                25 Helano, 145 City Road New Town DD14, USA</li>
+            </ul>
+          </div>
+        </div>
+
+      <div class="col-lg-3">
+        <div class="f-4">
+          <h4>POPULAR POSTS</h4>
+          <div class="img-area">
+                  <div class="img-f">
+                    <img src="images/F-1.webp">
+                  </div>
+                  <div class="text-f">
+                    <p>April 3, 2023</p>
+                    <h6>One of the</h6>
+                    <span class="r">Read More</span>
+                  </div>
+                </div>
+
+                <div class="img-area-2">
+                <div class="img-f-2">
+                  <img src="images/F-2.webp">
+                </div>
+                <div class="text-f-2">
+                  <p>April 3, 2023</p>
+                  <h6>How to Secure</h6>
+                  <span class="r">Read More</span>
+                </div>
+              </div>
+        </div>
+      </div>    
+  </div>
+    </div>
+
+
+  </div>
+</section>
+<section class="last-footer">
+  <div class="container">
+    <div class="last-f">
+      <p>© 2023 Elevate. All Right Reserved by Reacthemes</p>
+    </div>
+  </div>
+</section>
+
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+  $(".construction-1").owlCarousel({
+margin:10,
+loop:true,
+autoplay:true,
+nav:true,
+navText:["←","→"],
+responsive:{
+  0:{
+      items:1
+  },
+  600:{
+      items:3.5,
+      merge:true,
+                          
+  },
+  1000:{
+      items:3
+  }
+}
+});
+</script>
+<script>
+  $(".manager-1").owlCarousel({
+margin:10,
+loop:true,
+autoplay:true,
+nav:true,
+navText:["←","→"],
+responsive:{
+  0:{
+      items:1
+  },
+  600:{
+      items:1,
+      merge:true,
+                          
+  },
+  1000:{
+      items:1
+  }
+}
+});
+</script>
+<script>
+  $(".logo-1").owlCarousel({
+margin:50,
+loop:true,
+autoplay:true,
+nav:true,
+navText:["←","→"],
+responsive:{
+  0:{
+      items:6
+  },
+  600:{
+      items:6,
+      merge:true,
+                          
+  },
+  1000:{
+      items:6
+  }
+}
+});
+</script>
+  </body>
+</html>
